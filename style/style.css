@@ -3,6 +3,15 @@
   font-family: "Noto Sans TC", sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+div.container {
+  height: 30%;
+}
+
 div {
   display: flex;
   align-items: center;
@@ -17,6 +26,19 @@ div p {
   color: fuchsia;
 }
 
+div.box1 {
+  background-color: red;
+}
+div.box2 {
+  background-color: yellow;
+}
+div.box3 {
+  background-color: greenyellow;
+}
+div.box4 {
+  background-color: cyan;
+}
+
 table,
 tr,
 th,
@@ -28,4 +50,8 @@ td {
 th {
   color: black;
   background-color: #fff8d2;
+}
+
+div.box {
+  height: 250px;
 }/*# sourceMappingURL=style.css.map */
